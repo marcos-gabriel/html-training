@@ -1,0 +1,122 @@
+/* Meu primeiro arquivo CSS */
+
+/* TAGS */
+
+body{
+    background-color:#008080;
+}
+
+h1{
+    text-shadow: 1px 1px 1px #111111;
+    color:#ff8a65;
+    text-align:center;
+    margin: 0 0 50px 0;
+}
+
+p{
+    text-shadow: 1px 1px 1px #111111;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin:10px;
+}
+
+img{
+    height:80px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial;
+}
+
+header{
+    background-color:#35b8b0;
+    height:80px;
+    padding: 20px;
+}
+
+footer{
+    background-color: #35b8b0;
+    height: 30px;
+    padding: 10px;
+}
+
+/* IDs */
+#principal{
+    clear:both;
+    background-image: url('imgs/topografia.jpg');
+    background-size:100%;
+    min-height:700px;
+    padding:30px 0 0 0;
+}
+
+#logo{
+    float:left;
+}
+
+#menu{
+    float:right;
+    margin-top:30px;
+}
+
+/* Selecionando todos os elementos do id menu */
+#menu a{
+    text-decoration: none; 
+    color:black;
+    text-shadow: 1px 1px #111111;
+    padding: 53px 20px;
+}
+
+#menu a:hover{
+    color:#ff8a65;
+    -webkit-transition: 0.5s;
+}
+
+#rodape{
+    font-size: 12px;
+    color:#111111;
+    text-align:center;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+#redes{
+    text-decoration: none;
+}
+
+#img1{
+    width: 40px;
+    padding: 10px;
+    float:center;
+}
+
+#img2{
+    width: 40px;
+    padding: 10px;
+    float:center;
+}
+
+#img3{
+    width: 40px;
+    padding: 10px;
+    float:center;
+}
+
+#img4{
+    width: 40px;
+    padding: 10px;
+    float:center;
+}
+
+/* CLASS */
+.container{
+    width:960px;
+    margin:auto;
+}
+
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 80px 0 80px 0;
+}
