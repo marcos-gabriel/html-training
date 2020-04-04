@@ -1,10 +1,8 @@
-/* Meu primeiro arquivo CSS */
-
-/* TAGS */
-
-
 body{
     background-color:#008080;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 20px;
 }
 
 h1{
@@ -16,15 +14,18 @@ h1{
 
 p{
     text-shadow: 1px 1px 1px #111111;
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
     text-align: justify;
     margin:10px;
 }
 
+ul{
+    text-shadow: 1px 1px 1px #111111;
+}
+
 img{
-    height:80px;
+    width: 30px;
+    padding: 10px;
+    float:center;
 }
 
 *{
@@ -41,14 +42,21 @@ header{
 
 footer{
     background-color: #35b8b0;
-    height: 30px;
+    height: 90px;
     padding: 10px;
 }
 
 /* IDs */
+#mapa{
+    width: 20px;
+    float:left;
+
+}
+
 #principal{
     clear:both;
     background-image: url('imgs/topografia.jpg');
+    background-repeat: no-repeat;
     background-size:100%;
     min-height:700px;
     padding:30px 0 0 0;
@@ -77,10 +85,10 @@ footer{
 }
 
 #rodape{
+    padding-top: 10px;
     font-size: 12px;
     color:#111111;
     text-align:center;
-    text-shadow: 1px 1px 1px #111111;
 }
 
 #redes{
@@ -88,27 +96,9 @@ footer{
 }
 
 #img1{
-    width: 40px;
-    padding: 10px;
-    float:center;
-}
-
-#img2{
-    width: 40px;
-    padding: 10px;
-    float:center;
-}
-
-#img3{
-    width: 40px;
-    padding: 10px;
-    float:center;
-}
-
-#img4{
-    width: 40px;
-    padding: 10px;
-    float:center;
+    padding:10px;
+    height:80px;
+    width: 60px;
 }
 
 /* CLASS */
@@ -116,6 +106,7 @@ footer{
     width:960px;
     margin:auto;
 }
+
 
 .efeito{
     background-color: rgba(0, 0, 0, 0.5);
